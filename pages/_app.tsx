@@ -7,9 +7,7 @@ import "@rainbow-me/rainbowkit/styles.css";
 import type { AppProps } from "next/app";
 import { http, WagmiProvider, createConfig } from "wagmi";
 import Layout from "../components/Layout";
-import "../components/styles/globals.css";
-import "../components/styles/wallet.css";
-import "../components/styles/index.css"
+import "../styles/globals.css";
 import { celo, celoAlfajores } from "wagmi/chains";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
